@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css.css">
+  <script type='text/javascript'>
+    function colorChanger(el){
+     if(el.style.backgroundColor)
+     { el.style.backgroundColor=null;
+      el.style.textDecoration=null;
+     }
+     else {
+        el.style.backgroundColor = 'grey';
+        el.style.textDecoration = "line-through"; 
+        // el.style.color = "";
+        }
+    }
+    
+      function myFunction() {
+        return "Write something clever here...";
+      }
+      </script>
+</head>
+
+<body onbeforeunload="return myFunction()">
+  <div class="head">
+    <h1 class="animation">WELCOME TO BINGO GAME</h1>
+  </div>
+
+  <div class="middle">
+    <div class="ti">
+      <table class="ta">
+        
+        <caption class="highlight animation">PLAYER ID-04 JABALPUR</caption>
+        <tr>
+          
+          <td onclick="colorChanger(this);">03</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          <td onclick="colorChanger(this);">25</td>
+          
+          <td onclick="colorChanger(this);">30</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          <td onclick="colorChanger(this);">56</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          
+          <td onclick="colorChanger(this);">73</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+        </tr>
+        <tr>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          <td onclick="colorChanger(this);">14</td>
+          <td onclick="colorChanger(this);">20</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          <td onclick="colorChanger(this);">46</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          <td onclick="colorChanger(this);">67</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          <td onclick="colorChanger(this);">84</td>
+          
+        </tr>
+        <tr>
+          
+          <td onclick="colorChanger(this);">06</td>
+          
+          <td onclick="colorChanger(this);">19</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          <td onclick="colorChanger(this);">39</td>
+          
+          <td onclick="colorChanger(this);">47</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+          
+          <td onclick="colorChanger(this);">78</td>
+          <td onclick="colorChanger(this);" class="blank" ></td>
+        </tr>
+        
+      </table>
+    </div>
+  </div>
+
+  <div class="footer animation">
+    <marquee behavior="scroll" direction="right" scrollamount="10">Family Fun Time.Enjoy Playing ! Family Fun Time.Enjoy Playing ! Family Fun Time.Enjoy Playing ! Family Fun Time.Enjoy Playing !</marquee>
+    
+  </div>
+  <script>
+    function myFunction() {
+      return "Write something clever here...";
+    }
+    </script>
+
+</body>
+
+</html>
